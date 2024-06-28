@@ -23,6 +23,7 @@ public class MainScreenView extends JFrame {
         GridBagConstraints constraints = new GridBagConstraints();
         constraints.insets = new Insets(10, 10, 10, 10);
 
+        // Botão para operações do cliente
         JButton btnOperacoesCliente = new JButton("Operações do Cliente");
         btnOperacoesCliente.addActionListener(new ActionListener() {
             @Override

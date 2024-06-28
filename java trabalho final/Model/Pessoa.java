@@ -3,12 +3,13 @@ package Model;
 import java.io.Serializable;
 
 public class Pessoa implements Serializable {
-    protected String nome;
-    protected String endereco;
-    protected String rg;
-    protected String cpf;
-    protected String telefone;
+    protected String nome;       // Nome da pessoa
+    protected String endereco;   // Endereço da pessoa
+    protected String rg;         // RG da pessoa
+    protected String cpf;        // CPF da pessoa
+    protected String telefone;   // Telefone da pessoa
 
+    // Construtor para inicializar os atributos nome, endereco, rg, cpf e telefone
     public Pessoa(String nome, String endereco, String rg, String cpf, String telefone) {
         this.nome = nome;
         this.endereco = endereco;
@@ -17,7 +18,8 @@ public class Pessoa implements Serializable {
         this.telefone = telefone;
     }
 
-    // Getters e Setters
+    // Getters e Setters para acessar e modificar os atributos da classe
+
     public String getNome() {
         return nome;
     }
